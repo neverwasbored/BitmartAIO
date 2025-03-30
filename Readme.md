@@ -5,11 +5,7 @@
 
 The **BitmartAIO** script was designed to automate the process of voting on the Bitmart exchange. The main functionality of the script involves logging into the account, entering the email and password, solving CAPTCHA (via an extension in Adspower), and retrieving the `access_token` and `refresh_token` upon successful login. These tokens are later used to perform voting requests in order to participate in the **Top 500 Voters** leaderboard.
 
-The script also has a built-in feature to handle token refresh and re-login. If an account is already successfully logged in, the script will log out and log back in to refresh the tokens, as they can be updated arbitrarily. This helps to reduce the failure rate of accounts during the voting process.
-
-Additionally, the script has a tracking system to log successful and failed account logins. It tracks which accounts have successfully logged in and which have failed, enabling users to rerun the script only for the accounts that encountered issues.
-
-**Please note**: The script has been in use for almost a year now and may not work as expected with both the English and Russian versions of Bitmart, as the website's layout or login flow may have changed.
+Please note: The script has not been tested for over a year and may not work as expected. The functionality is not guaranteed to work with the current version of the website.
 
 ## Features
 
@@ -62,11 +58,7 @@ Make sure to configure your account details and settings before running the scri
 
 Скрипт **BitmartAIO** был разработан для автоматизации процесса голосования на бирже Bitmart. Основная функциональность скрипта заключается в том, чтобы войти в аккаунт, ввести емейл и пароль, решить капчу (с использованием расширения в Adspower), а затем получить `access_token` и `refresh_token` после успешного входа. Эти токены используются для выполнения запросов на голосование, чтобы попасть в **Топ 500 проголосовавших**.
 
-Скрипт также включает функцию обновления токенов и повторного входа. Если аккаунт уже был успешно авторизован, скрипт выполнит выход и снова войдёт в аккаунт для обновления токенов, так как они могут быть обновлены случайным образом. Это помогает уменьшить количество сбоев при голосовании.
-
-Кроме того, в скрипте есть система отслеживания, которая логирует успешные и неудачные входы. Он отслеживает, какие аккаунты успешно вошли, а какие нет, что позволяет запускать скрипт только для неудачных аккаунтов.
-
-**Обратите внимание**: Скрипт уже почти год в использовании, и он может не работать корректно с обеими версиями сайта (английской и русской), так как интерфейс или процесс входа могли измениться.
+Обратите внимание: Скрипт не тестировался более года, и его работоспособность не гарантируется. Он может не работать с текущей версией сайта.
 
 ## Особенности
 
