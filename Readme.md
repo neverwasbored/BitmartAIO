@@ -9,6 +9,8 @@ The script also has a built-in feature to handle token refresh and re-login. If 
 
 Additionally, the script has a tracking system to log successful and failed account logins. It tracks which accounts have successfully logged in and which have failed, enabling users to rerun the script only for the accounts that encountered issues.
 
+**Please note**: The script has been in use for almost a year now and may not work as expected with both the English and Russian versions of Bitmart, as the website's layout or login flow may have changed.
+
 ## Features
 
 - **Automated Voting**: Log in, retrieve tokens, and vote automatically on Bitmart.
@@ -52,18 +54,6 @@ Make sure to configure your account details and settings before running the scri
 1. Install the [Adspower extension](https://adspower.io/) in your browser.
 2. Follow the setup instructions to integrate Adspower with the script for CAPTCHA solving.
 
-## Best Practices for Writing README.md
-
-Here are some best practices for structuring a `README.md`:
-
-1. **Project Title & Description**: Provide a brief but comprehensive overview of your project. The description should explain what the project does, who it's for, and why it's useful.
-2. **Installation Instructions**: Include clear and concise installation instructions, such as cloning the repository, installing dependencies, and configuring necessary services or APIs.
-3. **Usage Instructions**: Demonstrate how to use the project. Include examples and code snippets that help users understand how to run and configure the script.
-4. **Features**: List the key features of your project. This helps users quickly identify the benefits and capabilities of the project.
-5. **Contributing**: Provide guidelines on how others can contribute to your project. This section is particularly useful for open-source projects.
-6. **License**: Mention the licensing information for your project.
-7. **Contact Information**: Include your contact info or links to community forums for user support or feedback.
-
 ---
 
 # BitmartAIO Скрипт для Автоматизации Голосования
@@ -75,6 +65,8 @@ Here are some best practices for structuring a `README.md`:
 Скрипт также включает функцию обновления токенов и повторного входа. Если аккаунт уже был успешно авторизован, скрипт выполнит выход и снова войдёт в аккаунт для обновления токенов, так как они могут быть обновлены случайным образом. Это помогает уменьшить количество сбоев при голосовании.
 
 Кроме того, в скрипте есть система отслеживания, которая логирует успешные и неудачные входы. Он отслеживает, какие аккаунты успешно вошли, а какие нет, что позволяет запускать скрипт только для неудачных аккаунтов.
+
+**Обратите внимание**: Скрипт уже почти год в использовании, и он может не работать корректно с обеими версиями сайта (английской и русской), так как интерфейс или процесс входа могли измениться.
 
 ## Особенности
 
